@@ -1,7 +1,7 @@
 import { Github, Linkedin, Facebook, Mail } from "lucide-react";
 
 export const profile = {
-  name: "Alex Rahman",
+  name: "Tahira Tabassum",
   title: "Front-End Developer & Software Engineer",
   intro:
     "I craft fast, accessible, and beautifully animated web experiences. Specialized in React, Next.js, and TypeScript — turning complex problems into elegant interfaces used by thousands.",
