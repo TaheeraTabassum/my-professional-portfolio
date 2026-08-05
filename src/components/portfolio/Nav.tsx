@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 
 const links = [
-  { href: "#about", label: "About" },
+
   { href: "#stack", label: "Stack" },
   { href: "#experience", label: "Experience" },
   { href: "#projects", label: "Projects" },
@@ -30,7 +30,7 @@ export function Nav() {
           scrolled ? "glass-strong shadow-card" : "glass"
         }`}
       >
-        <a href="#top" className="font-display font-bold text-sm px-3 text-gradient">AR.</a>
+        <a href="#top" className="font-display font-bold text-sm px-3 text-gradient">About Me.</a>
         <div className="hidden md:flex items-center gap-1">
           {links.map((l) => (
             <a

@@ -2,7 +2,7 @@ import { motion, useScroll, useTransform, useMotionValue, useSpring } from "fram
 import { Download, Mail, Sparkles, Code2, Rocket } from "lucide-react";
 import { useRef } from "react";
 import { profile } from "@/lib/portfolio-data";
-import profileImg from "@/assets/profile.jpg";
+import profileImg from "@/assets/ogprofile.jpg";
 
 export function Hero() {
   const ref = useRef<HTMLElement>(null);
@@ -73,7 +73,7 @@ export function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.3 }}
-            className="mt-4 text-xl sm:text-2xl text-muted-foreground font-light"
+            className="mt-4 text-xl sm:text-2xl md:text-4xl text-gradient animate-gradient  font-bold"
           >
             {profile.title}
           </motion.p>

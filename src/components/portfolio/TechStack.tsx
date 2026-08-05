@@ -10,7 +10,7 @@ export function TechStack() {
       title="Tools I build with"
       description="A curated toolkit refined across 5+ years of shipping production software."
     >
-      <div className="grid md:grid-cols-3 gap-6">
+      <div className="grid md:grid-cols-2 gap-6">
         {Object.entries(techStack).map(([category, items], ci) => (
           <motion.div
             key={category}

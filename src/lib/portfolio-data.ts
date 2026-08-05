@@ -2,28 +2,27 @@ import { Github, Linkedin, Facebook, Mail } from "lucide-react";
 
 export const profile = {
   name: "Tahira Tabassum",
-  title: "Front-End Developer & Software Engineer",
+  title: " A Front-End Web Developer",
   intro:
-    "I craft fast, accessible, and beautifully animated web experiences. Specialized in React, Next.js, and TypeScript — turning complex problems into elegant interfaces used by thousands.",
-  email: "hello@alexrahman.dev",
-  phone: "+1 (555) 123-4567",
-  location: "San Francisco, CA",
+    " I’m a results-driven Web Developer specializing in building fast, accessible, responsive, and beautifully animated web experiences. With a strong focus on React, Next.js, JavaScript,Tailwind CSS, integrating REST APIs, authentication, authoraization turning complex problems into elegant interfaces & production-ready web solutions used by thousands.",
+  phone: "01889242494",
+  location: "M",
   resumeUrl: "#",
   socials: [
-    { label: "GitHub", href: "https://github.com", icon: Github },
-    { label: "LinkedIn", href: "https://linkedin.com", icon: Linkedin },
-    { label: "Facebook", href: "https://facebook.com", icon: Facebook },
-    { label: "Email", href: "mailto:hello@alexrahman.dev", icon: Mail },
+    { label: "GitHub", href: "https://github.com/TaheeraTabassum", icon: Github },
+    { label: "LinkedIn", href: "https://www.linkedin.com/in/tahira-tabassum-413123336/", icon: Linkedin },
+    { label: "Facebook", href: "https://www.facebook.com/tahniz.tabassum/", icon: Facebook },
+    { label: "Email", href: "mailto:tahiratabassum.workspace@gmail.com", icon: Mail },
   ],
 };
 
 export const techStack = {
   Frontend: [
-    "HTML", "CSS", "JavaScript", "TypeScript",
-    "React", "Next.js", "Tailwind CSS", "Redux",
+    "HTML", "CSS", "JavaScript (ES6+)", "TypeScript",
+    "React", "Next.js", "Tailwind CSS", "ShadCN UI", "Redux",
   ],
-  Backend: ["Node.js", "Express.js", "MongoDB", "Firebase"],
-  Tools: ["Git", "GitHub", "VS Code", "Figma"],
+  // Backend: ["Node.js", "Express.js", "MongoDB", "Firebase"],
+  Tools: ["Git", "GitHub", "VS Code", "Figma", "Postman", "vercel", "Netlify"],
 };
 
 export const experience = [
@@ -127,22 +126,25 @@ export const projects = [
 
 export const education = [
   {
-    degree: "B.Sc. in Computer Science",
-    institution: "University of California, Berkeley",
-    duration: "2016 — 2020",
+    degree: "Diploma in Computer Science & Technology",
+    institution: "Feni Computer Institute",
+    duration: "2022 — 2026",
     coursework: ["Algorithms", "Distributed Systems", "Human-Computer Interaction", "Machine Learning"],
+    CGPA : "3.80 out of 4.00"
   },
   {
-    degree: "Full-Stack Web Development Bootcamp",
-    institution: "Lambda School",
-    duration: "2020",
-    coursework: ["React", "Node.js", "System Design", "Agile"],
+    degree: "SSC",
+    institution: "Ataturk Govt- Model High School",
+    duration: "2016-2021",
+    coursework: ["Mathematics", "Physics", "Chemistry", "Biology"],
+    CGPA : "5.00 out of 5.00"
   },
 ];
 
 export const stats = [
-  { label: "Years Experience", value: 5, suffix: "+" },
-  { label: "Projects Completed", value: 60, suffix: "+" },
+  { label: "Years Experience", value: 2, suffix: "+" },
+  { label: "Projects Completed", value: 30, suffix: "+" },
   { label: "Technologies Used", value: 25, suffix: "" },
-  { label: "Problems Solved", value: 800, suffix: "+" },
+  { label: "Problems Solved", value: 400, suffix: "+" },
 ];
+

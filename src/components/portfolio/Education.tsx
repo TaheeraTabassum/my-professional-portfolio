@@ -31,6 +31,7 @@ export function Education() {
                     </span>
                   ))}
                 </div>
+                <div className="text-gradient text-sm">CGPA: {e.CGPA}</div>
               </div>
             </div>
           </motion.div>
