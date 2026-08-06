@@ -27,37 +27,38 @@ export const techStack = {
 
 export const experience = [
   {
-    company: "Linear Labs",
-    position: "Senior Front-End Engineer",
-    duration: "2023 — Present",
-    achievements: [
-      "Led the redesign of the dashboard, improving Lighthouse score from 62 → 98.",
-      "Built a reusable design system adopted across 6 product teams.",
-      "Mentored 4 junior engineers and ran weekly architecture reviews.",
-    ],
-    tech: ["Next.js", "TypeScript", "Tailwind", "tRPC"],
-  },
-  {
-    company: "Stripeline",
+    company: "Betopia Group (Fire AI Agency)",
     position: "Front-End Developer",
-    duration: "2021 — 2023",
+    duration: "Feb 2026 - June 2026",
     achievements: [
-      "Shipped checkout flow used by 200k+ monthly users.",
-      "Reduced bundle size by 38% through code-splitting and lazy loading.",
-      "Introduced E2E testing with Playwright, cutting regressions by 70%.",
+      "Developed responsive and scalable web applications using React.js, Next.js, JavaScript, Typescript, Tailwind CSS, and modern UI libraries.",
+      "Collaborated with UI/UX designers , AI Engineers & backend developers . Integrated APIs to create dynamic and functional web features.",
+      "Worked on SaaS platforms , ERP system and ai platforms UI while following clean code and development standards.",
+      "Worked on Component-Based Architecture, State Management, Authentication (JWT/Firebase) , RESTful APIs, Protected routes, Cookies & Session Management, CRUD Operations.",
     ],
-    tech: ["React", "Redux", "Node.js", "GraphQL"],
+    tech: ["Next.js", "TypeScript", "Tailwind", "React", "Redux", "Rest API", "git", "gthub", "postman"],
   },
-  {
-    company: "Pixelcraft Studio",
-    position: "Junior Web Developer",
-    duration: "2020 — 2021",
-    achievements: [
-      "Delivered 20+ client websites with custom CMS integrations.",
-      "Implemented animation system reused across all projects.",
-    ],
-    tech: ["JavaScript", "Firebase", "GSAP"],
-  },
+  // {
+  //   company: "Stripeline",
+  //   position: "Front-End Developer",
+  //   duration: "2021 — 2023",
+  //   achievements: [
+  //     "Shipped checkout flow used by 200k+ monthly users.",
+  //     "Reduced bundle size by 38% through code-splitting and lazy loading.",
+  //     "Introduced E2E testing with Playwright, cutting regressions by 70%.",
+  //   ],
+  //   tech: ["React", "Redux", "Node.js", "GraphQL"],
+  // },
+  // {
+  //   company: "Pixelcraft Studio",
+  //   position: "Junior Web Developer",
+  //   duration: "2020 — 2021",
+  //   achievements: [
+  //     "Delivered 20+ client websites with custom CMS integrations.",
+  //     "Implemented animation system reused across all projects.",
+  //   ],
+  //   tech: ["JavaScript", "Firebase", "GSAP"],
+  // },
 ];
 
 import project1 from "@/assets/project-1.jpg";

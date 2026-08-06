@@ -11,7 +11,7 @@ export function Experience() {
       title="My professional journey"
     >
       <div className="relative">
-        <div className="absolute left-4 sm:left-1/2 top-0 bottom-0 w-px bg-gradient-to-b from-transparent via-border to-transparent" />
+        <div className="absolute sm:left-1/2 top-0 bottom-0 w-px bg-gradient-to-b from-transparent via-border to-transparent" />
         <div className="space-y-12">
           {experience.map((exp, i) => (
             <motion.div
